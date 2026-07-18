@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(VITE_API_URL=http://localhost:4000 npm run build)",
+      "Bash(docker compose *)",
+      "Bash(powershell -Command \"Get-Process -Name 'Docker Desktop' -ErrorAction SilentlyContinue\")",
+      "Bash(powershell -Command \"Start-Process 'C:\\\\Program Files\\\\Docker\\\\Docker\\\\Docker Desktop.exe'\")",
+      "Bash(curl -s http://localhost:4000/health)",
+      "Bash(curl -s http://localhost:4000/questions)",
+      "Bash(curl -s -X POST http://localhost:4000/answers -H \"Content-Type: application/json\" -d '{\"answers\":{\"name\":\"Иван\",\"experience\":3,\"feedback\":\"Хочу изучить full-stack разработку\"}}')",
+      "Bash(curl -s -w \"\\\\nHTTP_STATUS:%{http_code}\\\\n\" -X POST http://localhost:4000/answers -H \"Content-Type: application/json\" -d '{\"answers\":{\"experience\":3}}')",
+      "Bash(curl -s -o /dev/null -w \"HTTP_STATUS:%{http_code}\\\\n\" http://localhost:3000/)",
+      "Bash(curl -s http://localhost:4000/answers)",
+      "Bash(curl -s http://localhost:3000/)",
+      "Bash(curl -s -X POST http://localhost:4000/answers -H \"Content-Type: application/json\" --data-binary @\"C:\\\\Users\\\\fraud\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-fraud-Documents-git-form-app-vibe\\\\9ac76aae-ae18-4d5a-918d-7a4d13dcfcc1\\\\scratchpad\\\\payload.json\" -o /c/Users/fraud/AppData/Local/Temp/claude/c--Users-fraud-Documents-git-form-app-vibe/9ac76aae-ae18-4d5a-918d-7a4d13dcfcc1/scratchpad/post_result.json)",
+      "Bash(curl -s http://localhost:4000/answers -o /c/Users/fraud/AppData/Local/Temp/claude/c--Users-fraud-Documents-git-form-app-vibe/9ac76aae-ae18-4d5a-918d-7a4d13dcfcc1/scratchpad/answers2.json)"
+    ]
+  }
+}
