@@ -93,8 +93,8 @@ form-app-vibe/
 Единственное требование — установленный **Docker Desktop** (или Docker Engine + Compose plugin).
 
 ```bash
-git clone <адрес репозитория>   # или просто перейти в папку проекта
-cd form-app-vibe
+git clone https://github.com/zheleznikov/from-app-vibe-1.git
+cd from-app-vibe-1
 docker compose up --build
 ```
 
